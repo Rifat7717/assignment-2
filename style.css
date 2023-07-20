@@ -246,3 +246,64 @@ nav{
 
 }
 /* small img end  */
+
+/* footer start  */
+
+footer{
+    background-color: #0B0223;
+    height: 636px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    padding: 66px;
+
+}
+.footer-logo-color{
+    color: white;
+}
+.footer-logo h4{
+    color:#F948B2 ;
+    font-size: 45px;
+    padding-left: 10px;
+
+}
+.our-story{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.our-story a{
+    color: white;
+    text-decoration: none;
+    
+}
+.others-logo{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 30px;
+    
+}
+.term{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.term a{
+    color: #767272;
+    text-decoration: none;
+    padding: 30px;
+}
+.lastdiv a{
+    color:#767272 ;
+    text-decoration: none;
+    
+
+}
+.lastdiv {
+    display: flex;
+    justify-content: center;
+} 
