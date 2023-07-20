@@ -151,5 +151,31 @@ nav{
     text-align: center;
 }
 .online-game h1{
-    
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.funny{
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+.online-game p{
+     color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+.game-videos{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 240px;
+}
+.game-videos:hover{
+   cursor: pointer;
 }
