@@ -173,8 +173,8 @@ nav{
 
 .game-videos{
     display: flex;
-    justify-content: space-around;
-    margin: 0 240px;
+    justify-content:center;
+    gap: 30px;
 }
 .game-videos:hover{
    cursor: pointer;
