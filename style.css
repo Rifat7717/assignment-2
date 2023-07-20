@@ -27,7 +27,7 @@ nav{
 
 }
 .nav-logo-container{
-    width: 50%;
+    width: 70%;
     display: flex;
 
 }
@@ -43,8 +43,12 @@ nav{
     color: #F948B2 ;
 
 }
+.nav-logo-container span{
+    color: black;
+}
+
 .nav-manu-container{
-    width: 50%;
+    width: 30%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,4 +64,92 @@ nav{
    background-color: #d2d1d6;
    padding: 15px;
    border-radius: 5px;
+}
+
+/* nav end */
+/* body goat */
+.body-container{
+    display: flex;
+    width: 1920px;
+    margin: 0 auto;
+    
+    
+}
+.body-text-container{
+    background-image: url(./B8A2-Gamer-Zone/images/Group\ 14.png);
+    width: 40%;
+    /* padding: 150px; */
+
+
+}
+.body-text-goat{
+    padding: 150px;
+    
+}
+.body-text-goat h2{
+     color: #0B0223;
+    text-align: left;
+    font-size: 48px;
+    font-weight: 600px;
+    
+}
+.body-text-goat h1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+    font-size: 95px;
+    font-weight: 800px;
+}
+.body-text-goat .p1{
+     color: #534C64;
+    text-align:left;
+    font-size: 20px;
+    font-weight: 500px;
+}
+.body-text-goat .p2{
+     color: #534C64;
+    font-size: 20px;
+    font-weight: 500px;
+    margin-top: 8px;
+}
+.btn{
+    margin-top: 30px;
+}
+.btn1{
+    background-color:#F948B2 ;
+    border: 0px;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 48px;
+    
+
+}
+.btn2{
+    background-color: #4EC5F7;
+    border: 0px;
+    padding: 21px 40px;
+    color: white;
+    margin-left:20px;
+    border-radius: 48px;
+
+    
+
+}
+
+
+.body-img-container{
+
+}
+/* body goat end */
+
+/* online game start  */
+
+.online-game{
+    margin: 60px auto 30px;
+    text-align: center;
+}
+.online-game h1{
+    
 }
