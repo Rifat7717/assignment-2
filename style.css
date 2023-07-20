@@ -184,7 +184,7 @@ nav{
 /* no download   */
 .no-download{
     display: flex;
-    margin: 40px 220px 30px 440px;
+    margin: 40px 220px 30px 280px;
     
     
 
@@ -199,12 +199,15 @@ nav{
 }
 .no-download-text h1{
     text-align: right;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 60px; 
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 50px; 
 }
 .no-download-span{
     color: #F948B2;
+}
+.no-download-text p{
+    margin-top: 24px;
 }
 .no-download-img{
 
@@ -219,3 +222,27 @@ nav{
     position: relative;
     top:-300px;
 }
+/* no download end  */
+ /* small img shart  */
+
+.small-main{
+    display: flex;
+    gap: 20px;
+    padding-left: 250px;
+}
+.small-action  {
+    display: flex;
+    align-items: center;
+}
+.small-action h4{
+    padding-left: 20px;
+}
+.small-main2 {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    padding-left: 350px;
+    margin-bottom: 150px;
+
+}
+/* small img end  */
