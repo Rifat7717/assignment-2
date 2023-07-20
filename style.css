@@ -8,17 +8,21 @@
 }
 body{
     font-family: 'Work Sans', sans-serif;
-
+    box-sizing: border-box;
 }
 /* nav start */
 nav{
     width: 1920px;
     height: 130px;
     background: #FFF;
+    align-items: center;
+    margin: 0 auto;
+    /* display: block; */
 }
 .nav-container{
     display: flex;
     padding: 38px;
+    width: 1400px;
 
 
 }
@@ -30,16 +34,30 @@ nav{
 .nav-logo-container img{
 
 }
-..nav-logo-container h1{
+.nav-logo-container h1{
+   
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 20px;
+    color: #F948B2 ;
 
 }
 .nav-manu-container{
     width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    
 
 }
 .nav-manu-container a{
     text-decoration: none;
     color: black;
+    /* padding-left: 60px; */
+}
+.follow{
+   background-color: #d2d1d6;
+   padding: 15px;
+   border-radius: 5px;
 }
